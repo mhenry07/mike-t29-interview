@@ -1,5 +1,7 @@
 <?php
 
+// author: Mike Henry, 2018
+
 const ONE_DAY = 86400; // in seconds
 
 class DivSettings {

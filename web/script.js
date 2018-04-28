@@ -1,3 +1,5 @@
+// author: Mike Henry, 2018
+
 // divObj is the jQuery-wrapped clicked div
 function formatPostData(divObj) {
   let state = 0;

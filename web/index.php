@@ -1,5 +1,7 @@
 <?php
 
+// author: Mike Henry, 2018
+
 require('include.php');
 
 //some settings
@@ -18,7 +20,9 @@ $settings = new DivSettings();
 <!doctype html>
 <html lang="en">
 <head>
-<title>Three29 Test</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="Mike Henry">
+  <title>Three29 Test - Mike Henry</title>
 <style>
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -107,7 +111,7 @@ table {
   text-align: center;
 }
 #div4 .numbers {
-  line-height: 2em;
+  line-height: 2;
 }
 
 @media only screen and (max-width : 600px) {
