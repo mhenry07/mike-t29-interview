@@ -78,7 +78,7 @@ table {
 /* css here */
 .divitem {
   height: 25vh;
-  transition: all 2s ease;
+  transition: width 2s ease, background 2s ease;
 }
 .divitem.toggled {
   width: 100% !important;
