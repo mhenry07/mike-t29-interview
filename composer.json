@@ -1,5 +1,11 @@
 {
   "require": {
     "php": "^7.2.0"
+  },
+  "autoload": {
+    "psr-4": {"MikeT29\\": "lib/"}
+  },
+  "scripts": {
+    "post-install-cmd": "grunt"
   }
 }

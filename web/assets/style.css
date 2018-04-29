@@ -1,0 +1,41 @@
+.divitem {
+  height: 25vh;
+  transition: width 2s ease, background-color 2s ease;
+}
+.divitem.toggled {
+  width: 100% !important;
+}
+#div1 {
+  width: 25%;
+  background-position: center center;
+  background-size: cover;
+}
+#div2 {
+  width: 75%;
+  background-color: orange;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 128px;
+}
+#div3 {
+  width: 50%;
+  background-color: blue;
+}
+#div3.toggled {
+  background-color: red;
+}
+#div4 {
+  width: 90%;
+  background-color: yellow;
+  font-size: x-large;
+  text-align: center;
+}
+#div4 .numbers {
+  line-height: 2;
+}
+
+@media only screen and (max-width : 600px) {
+  #div3, #div4 {
+    display: none;
+  }
+}
