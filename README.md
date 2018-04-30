@@ -44,7 +44,8 @@ April 29, 2018
 
 To run from source:
   - `git clone https://github.com/mhenry07/mike-t29-interview.git && cd mike-t29-interview`
-  - `composer install && grunt`
+  - `npm install`
+  - `composer install` # this should also run grunt
   - `cd web && php -S 127.0.0.1:8000`
   - open http://127.0.0.1:8000 in a browser
 
