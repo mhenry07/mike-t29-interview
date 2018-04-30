@@ -1,6 +1,13 @@
 <?php
-header('Content-Type: text/html; charset=utf-8');
 // note: $model is an instance of \MikeT29\Models\IndexViewModel
+
+// deny access if view is accessed outside of controller
+if (!isset($model)) {
+  http_response_code(403);
+  exit('Access Denied');
+}
+
+header('Content-Type: text/html; charset=utf-8');
 ?>
 <!doctype html>
 <html lang="en">
