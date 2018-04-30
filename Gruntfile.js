@@ -70,5 +70,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-regex-replace');
 
   // Default tasks.
-  grunt.registerTask('default', ['jshint', /*'clean',*/ 'copy', 'assets_versioning', 'regex-replace']);
+  grunt.registerTask('default', ['jshint', 'clean', 'copy', 'assets_versioning', 'regex-replace']);
 };
